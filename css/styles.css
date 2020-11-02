@@ -30,8 +30,19 @@ body {
 
 .navbar .logo {
   width: 60px;
-  margin: 30px;
+  margin: 30px 15px 30px 30px;
   cursor: pointer;
+}
+
+.navbar .brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar span {
+  font-size: 1.9rem;
+  color: #eaeaea;
+  font-weight: 500;
 }
 
 .navbar .user {
