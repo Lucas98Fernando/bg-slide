@@ -123,13 +123,14 @@ button {
 
 .social {
   display: flex;
+  align-items: center;
   position: absolute;
-  top: 83%;
+  bottom: 65px;
 }
 
 .icons {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   margin: 0 10px;
   display: flex;
   justify-content: center;
