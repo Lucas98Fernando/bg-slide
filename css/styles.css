@@ -29,8 +29,8 @@ body {
 }
 
 .navbar .logo {
-  width: 60px;
-  margin: 30px 15px 30px 55px;
+  width: 70px;
+  margin: 30px 15px;
   cursor: pointer;
 }
 
@@ -74,6 +74,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
   flex-direction: column;
   width: 50%;
   height: 100vh;
@@ -85,10 +86,10 @@ button {
 }
 
 .info {
-  width: 550px;
+  align-items: center;
+  justify-content: center;
   color: #eaeaea;
   position: absolute;
-  right: 0;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -103,11 +104,12 @@ button {
   color: #f0eef1;
   font-size: 1rem;
   margin: 1rem 0;
-  line-height: 1.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 2rem;
 }
 
 .info input {
-  width: 82%;
+  width: 100%;
   padding: 8px 10px;
   outline: none;
   color: #eaeaea;
@@ -156,7 +158,7 @@ button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to left, #4B0082, #800080);
+  background: linear-gradient(to left, #4b0082, #800080);
   z-index: -1;
   border-radius: 50%;
   transform: translate(100%, 100%);
