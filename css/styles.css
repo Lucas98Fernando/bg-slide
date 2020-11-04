@@ -16,6 +16,7 @@ body {
   background-size: cover;
   background-position: center;
   position: relative;
+  transition: 1.5s ease-in-out;
 }
 
 .navbar {
@@ -32,6 +33,8 @@ body {
   width: 70px;
   margin: 30px 15px;
   cursor: pointer;
+  position: relative;
+  animation: float 4s infinite ease-in-out;
 }
 
 .navbar .brand {
@@ -127,7 +130,7 @@ button {
   display: flex;
   align-items: center;
   position: absolute;
-  bottom: 65px;
+  bottom: 60px;
 }
 
 .icons {
@@ -214,4 +217,22 @@ button {
   border: 3px solid #eaeaea;
   width: 100px;
   opacity: 1;
+}
+
+@keyframes float {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 10px;
+  }
+  50% {
+    top: 0px;
+  }
+  75% {
+    top: 10px;
+  }
+  100% {
+    top: 0px;
+  }
 }
