@@ -244,6 +244,7 @@ button {
 /* =============== KEYFRAMES =============== */
 
 @keyframes animate {
+
   0%,
   100% {
     width: 100%;
@@ -283,9 +284,9 @@ button {
 /* =============== MEDIA QUERYS MOBILE =============== */
 @media (max-width: 600px) {
   .navbar {
-    justify-content: space-between;
+    justify-content: center;
     padding: 30px 15px;
-    margin: 0 15px;
+    margin: 0 20px;
   }
 
   .navbar .logo {
@@ -307,7 +308,8 @@ button {
   }
 
   .info {
-    padding: 0 20px;
+    width: 100%;
+    padding: 0 30px;
   }
 
   .info input {
@@ -323,7 +325,24 @@ button {
   }
 
   .info h1 {
+    text-align: center;
     font-size: 1.8rem;
+  }
+
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    right: 0;
+    left: 0;
+    bottom: 50px;
+    padding: 0;
+  }
+
+  .preview {
+    margin: 0 15px;
   }
 
   .preview img {
