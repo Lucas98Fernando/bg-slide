@@ -307,7 +307,7 @@ button {
   }
 
   .info {
-    padding: 0 30px;
+    padding: 0 20px;
   }
 
   .info input {
@@ -324,5 +324,9 @@ button {
 
   .info h1 {
     font-size: 1.8rem;
+  }
+
+  .preview img {
+    display: none;
   }
 }
