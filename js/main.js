@@ -6,11 +6,11 @@ var hero = document.getElementById("hero");
 
 // Array to all background images
 var backgroundImg = new Array(
-    "/img/sky1.jpg",
-    "/img/sky2.jpg",
-    "/img/sky3.jpg",
-    "/img/sky4.jpg",
-    "/img/sky5.jpg",
+    "img/sky1.jpg",
+    "img/sky2.jpg",
+    "img/sky3.jpg",
+    "img/sky4.jpg",
+    "img/sky5.jpg",
 );
 
 let i = 0;
