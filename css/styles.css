@@ -283,6 +283,28 @@ button {
 /* =============== END KEYFRAMES =============== */
 
 /* =============== MEDIA QUERYS MOBILE =============== */
+
+@media (max-width: 1024px) {
+.slider {
+  right: 20px;
+}
+  .preview {
+    margin: 0 10px;
+  }
+
+  .preview img {
+    width: 60px;
+  }
+
+  .preview .active {
+    width: 75px;
+  }
+  
+  .info h1 {
+    font-size: 2.5rem;
+  }
+}
+
 @media (max-width: 600px) {
   .navbar {
     justify-content: center;
